@@ -1,11 +1,4 @@
-# Lab: AI-Powered CI/CD with GitHub Actions (Python Edition)
-
------
-
-**Module:** Modern Software Development  
-**Tech Stack:** Python 3.10+, pip, pytest, GitHub Actions, GitHub Copilot
-
------
+# Lab: AI-Powered CI/CD with GitHub Actions
 
 ## 🚀 Introduction
 
@@ -55,35 +48,8 @@ flowchart LR
 
 -----
 
-## ✅ Prerequisites
 
-  * **GitHub Account** with Copilot enabled (Student/Education pack works perfectly).
-  * **No local installation required**: We will use **GitHub Codespaces**.
-
------
-
-## Part 1: Project Setup (10 Mins)
-
-We need a Python application to test. Your instructor has provided a starter repository via GitHub Classroom.
-
-1.  **Accept the Assignment**: Click the following link to create your repository.
-2.  **Open Your Repository**: Once the repository is created, click the link to open it on GitHub.
-
-3.  **Launch Codespaces**:
-    * Click the green **Code** button.
-    * Select the **Codespaces** tab.
-    * Click **Create codespace on main**.
-
-4.  Wait for the environment to load. It creates a full Linux VM with Python pre-installed.
-
-### Verify Copilot
-
-1.  Locate the **Copilot Icon** in the bottom right of VS Code (inside the browser).
-2.  Ensure it is active.
-
------
-
-## Part 2: Generative CI/CD (20 Mins)
+## Part 1: Generative CI/CD (20 Mins)
 
 *Goal: Use Copilot Agent Mode to generate the pipeline files automatically.*
 
@@ -112,7 +78,7 @@ Instead of writing YAML manually or copy-pasting, we will ask the AI Agent to cr
 
 -----
 
-## Part 3: Pipeline Updates (20 Mins)
+## Part 2: Pipeline Updates (20 Mins)
 
 *Goal: Use Copilot to write shell scripts without knowing the syntax.*
 
@@ -143,7 +109,7 @@ We want to add a step to our pipeline that prints the version of Flask currently
 
 -----
 
-## Part 4: The "Fix It" Loop (20 Mins)
+## Part 3: The "Fix It" Loop (20 Mins)
 
 *Goal: Simulate a failure and use AI to diagnose it.*
 
@@ -180,7 +146,7 @@ A CI pipeline is useless if you can't fix it when it breaks.
 
 -----
 
-## Part 5: Advanced - Security & Autofix (15 Mins)
+## Part 4: Advanced - Security & Autofix (15 Mins)
 
 *Goal: Use AI to find security vulnerabilities.*
 
@@ -201,7 +167,7 @@ If your repository is public (or you have GitHub Advanced Security), you can ena
 
 -----
 
-## Part 6: Extension - AI Engineering in CI/CD
+## Part 5: Extension - AI Engineering in CI/CD
 
 *Goal: Use the `ai-inference` action to "think" inside your pipeline.*
 
@@ -254,7 +220,7 @@ We will create a workflow that uses an LLM to automatically categorise new Issue
 
 -----
 
-## Part 7: The AI Teammate (Issues & PRs)
+## Part 6: The AI Teammate (Issues & PRs)
 
 *Goal: Delegate tasks to Copilot and get automated code reviews.*
 
