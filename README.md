@@ -247,7 +247,7 @@ We will create a workflow that uses an LLM to automatically categorise new Issue
               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
           - name: Print Classification
-            run: echo "The AI thinks this is a ${{ steps.classify.outputs.answer }}"
+            run: echo "The AI thinks this is a ${{ steps.classify.outputs.response }}"
     ```
 
 4.  Commit and test by creating a new issue.
