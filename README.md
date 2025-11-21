@@ -113,7 +113,7 @@ We want to add a step to our pipeline that prints the version of Flask currently
 
 2.  Copilot will offer a command (likely `pip show Flask` or `pip freeze | grep Flask`). Select **Copy to clipboard**.
 
-### Step 3: Update the Workflow
+### Step 2: Update the Workflow
 
 1.  Ask Copilot to:
 
