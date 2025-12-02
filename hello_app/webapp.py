@@ -3,6 +3,7 @@
 from . import app  # noqa: F401
 # For import side-effects of setting up routes.
 from . import views  # noqa: F401
+AWS_SECRET_KEY = "AKIA1234567890"
 
 # Time-saver: output a URL to the VS Code terminal so you can easily
 # Ctrl+click to open a browser.
