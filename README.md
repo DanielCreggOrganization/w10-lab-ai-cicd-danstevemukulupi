@@ -1,6 +1,32 @@
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=21800279)
 # Lab: AI-Powered CI/CD with GitHub Actions
 
+## 📖 About This Project
+
+This is a Python Flask web application designed for a CI/CD lab. It demonstrates how to set up continuous integration and continuous deployment using GitHub Actions and AI-powered tools like GitHub Copilot.
+
+## 🛠️ Quick Start
+
+### Install Requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run the Application
+
+```bash
+python3 -m flask --app startup run
+```
+
+### Run the Tests
+
+```bash
+python -m pytest
+```
+
+---
+
 ## 🚀 Introduction
 
 Continuous Integration (CI) is the practice of automating the build and testing of your code every time a change is made. Traditionally, writing CI pipelines required memorising complex YAML syntax and obscure shell commands.
